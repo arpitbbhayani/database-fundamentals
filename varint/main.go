@@ -53,7 +53,6 @@ func DecodeUInt(vint []byte) uint64 {
 }
 
 func main() {
-	for i := 0; i < 1024; i += 10 {
-		fmt.Println(i, EncodeUInt(uint64(i)))
-	}
+	fmt.Println(EncodeUInt(123))
+	fmt.Println(EncodeUInt(292))
 }
