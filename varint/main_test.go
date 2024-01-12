@@ -3,10 +3,10 @@ package varint
 import (
 	"testing"
 
-	"github.com/arpitbbhayani/database-fundamentals/utils"
+	"github.com/arpitbbhayani/database-fundamentals/core"
 )
 
 func TestMain(t *testing.T) {
-	t.Log(utils.EncodeUInt64(123))
-	t.Log(utils.EncodeUInt64(292))
+	t.Log(core.EncodeUInt64(123))
+	t.Log(core.EncodeUInt64(292))
 }

@@ -4,6 +4,8 @@ import (
 	"encoding/binary"
 	"log"
 	"os"
+
+	"github.com/arpitbbhayani/database-fundamentals/core"
 )
 
 func PersistSliceUint64(arr []uint64, filename string, shouldVarint bool) {
@@ -16,7 +18,7 @@ func PersistSliceUint64(arr []uint64, filename string, shouldVarint bool) {
 	for i := range arr {
 		var buf []byte
 		if shouldVarint {
-			buf = EncodeUInt64(arr[i])
+			buf = core.EncodeUInt64(arr[i])
 		} else {
 			buf = make([]byte, 8)
 			binary.LittleEndian.PutUint64(buf, arr[i])

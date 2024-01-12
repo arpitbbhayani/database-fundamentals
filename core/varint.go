@@ -1,4 +1,4 @@
-package utils
+package core
 
 var BITMASK = []byte{
 	0b00000001,
