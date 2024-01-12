@@ -2,5 +2,5 @@ varint
 ===
 
 ```
-$ go run main.go
+$ go test -v main_test.go
 ```
