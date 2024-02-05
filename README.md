@@ -5,5 +5,6 @@ The repository contains prototype implementations of fundamental concepts and al
 
 - [x] Variable length integer encoding • [Source](https://github.com/arpitbbhayani/database-fundamentals/tree/master/varint) • [YouTube Video](https://youtu.be/9b2e_iRVJ0k)
 - [x] Delta compression • [Source](https://github.com/arpitbbhayani/database-fundamentals/tree/master/delta) • [YouTube Video](https://youtu.be/J7VJtuRCkuI)
+- [x] Random vs Sequential IO • [Source](https://github.com/arpitbbhayani/database-fundamentals/tree/master/seq-random)
 
 Do star the repository, if you find these prototypes helpful.
